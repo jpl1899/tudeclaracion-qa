@@ -103,8 +103,8 @@ const envDataMap: Record<
     user: userCredentialsMap.local,
   },
   staging: {
-    base: 'https://dojo.upexgalaxy.com',
-    api: 'https://dojo.upexgalaxy.com/api',
+    base: 'https://tudeclaracion-staging-pus8.onrender.com',
+    api: 'https://tudeclaracion-staging-pus8.onrender.com/api',
     user: userCredentialsMap.staging,
   },
 };
