@@ -1,0 +1,1212 @@
+{
+  "story": {
+    "jira_issue_type": {
+      "id": "10007",
+      "name": "Story"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  },
+  "bug": {
+    "jira_issue_type": {
+      "id": "10042",
+      "name": "Bug"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  },
+  "test_case": {
+    "jira_issue_type": {
+      "id": "10075",
+      "name": "Test"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  },
+  "epic": {
+    "jira_issue_type": {
+      "id": "10000",
+      "name": "Epic"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  },
+  "defect": {
+    "jira_issue_type": null,
+    "workflow_scheme": null,
+    "workflow": null,
+    "statuses": {},
+    "transitions": {}
+  },
+  "improvement": {
+    "jira_issue_type": null,
+    "workflow_scheme": null,
+    "workflow": null,
+    "statuses": {},
+    "transitions": {}
+  },
+  "tech_story": {
+    "jira_issue_type": null,
+    "workflow_scheme": null,
+    "workflow": null,
+    "statuses": {},
+    "transitions": {}
+  },
+  "tech_debt": {
+    "jira_issue_type": null,
+    "workflow_scheme": null,
+    "workflow": null,
+    "statuses": {},
+    "transitions": {}
+  },
+  "test_plan": {
+    "jira_issue_type": {
+      "id": "10077",
+      "name": "Test Plan"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  },
+  "test_execution": {
+    "jira_issue_type": {
+      "id": "10078",
+      "name": "Test Execution"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  },
+  "re_test_execution": {
+    "jira_issue_type": null,
+    "workflow_scheme": null,
+    "workflow": null,
+    "statuses": {},
+    "transitions": {}
+  },
+  "test_set": {
+    "jira_issue_type": {
+      "id": "10076",
+      "name": "Test Set"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  },
+  "precondition": {
+    "jira_issue_type": {
+      "id": "10079",
+      "name": "Precondition"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  },
+  "subtask": {
+    "jira_issue_type": {
+      "id": "10041",
+      "name": "Sub-task"
+    },
+    "workflow_scheme": {
+      "id": 10034,
+      "name": "TD: Software Simplified Workflow Scheme"
+    },
+    "workflow": {
+      "id": "4d48785c-35e0-4031-8a58-19f251b4b3ca",
+      "name": "Software Simplified Workflow for Project TD"
+    },
+    "statuses": {
+      "finalizada": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      },
+      "tareas_por_hacer": {
+        "id": "10037",
+        "name": "Tareas por hacer",
+        "category": "new"
+      },
+      "en_curso": {
+        "id": "3",
+        "name": "En curso",
+        "category": "indeterminate"
+      },
+      "bugs": {
+        "id": "10073",
+        "name": "Bugs",
+        "category": "indeterminate"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "10107",
+        "name": "Ready for QA-on QA",
+        "category": "indeterminate"
+      },
+      "deployed": {
+        "id": "10072",
+        "name": "Deployed",
+        "category": "indeterminate"
+      },
+      "planificacion": {
+        "id": "10071",
+        "name": "Planificación",
+        "category": "indeterminate"
+      },
+      "hecho": {
+        "id": "10074",
+        "name": "Hecho",
+        "category": "indeterminate"
+      },
+      "active": {
+        "id": "10038",
+        "name": "Finalizada",
+        "category": "done"
+      }
+    },
+    "transitions": {
+      "to_do": {
+        "id": "11",
+        "name": "To Do",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      },
+      "in_progress": {
+        "id": "21",
+        "name": "In Progress",
+        "from_status_id": null,
+        "to_status_id": "3",
+        "from_canonical": null,
+        "to_canonical": "en_curso"
+      },
+      "done": {
+        "id": "31",
+        "name": "Done",
+        "from_status_id": null,
+        "to_status_id": "10038",
+        "from_canonical": null,
+        "to_canonical": "finalizada"
+      },
+      "planning": {
+        "id": "41",
+        "name": "Planning",
+        "from_status_id": null,
+        "to_status_id": "10071",
+        "from_canonical": null,
+        "to_canonical": "planificacion"
+      },
+      "deployed": {
+        "id": "51",
+        "name": "Deployed",
+        "from_status_id": null,
+        "to_status_id": "10072",
+        "from_canonical": null,
+        "to_canonical": "deployed"
+      },
+      "bugs": {
+        "id": "61",
+        "name": "Bugs",
+        "from_status_id": null,
+        "to_status_id": "10073",
+        "from_canonical": null,
+        "to_canonical": "bugs"
+      },
+      "hecho": {
+        "id": "71",
+        "name": "Hecho",
+        "from_status_id": null,
+        "to_status_id": "10074",
+        "from_canonical": null,
+        "to_canonical": "hecho"
+      },
+      "ready_for_qa_on_qa": {
+        "id": "81",
+        "name": "Ready for QA-on QA",
+        "from_status_id": null,
+        "to_status_id": "10107",
+        "from_canonical": null,
+        "to_canonical": "ready_for_qa_on_qa"
+      },
+      "create": {
+        "id": "1",
+        "name": "Create",
+        "from_status_id": null,
+        "to_status_id": "10037",
+        "from_canonical": null,
+        "to_canonical": "tareas_por_hacer"
+      }
+    }
+  }
+}
