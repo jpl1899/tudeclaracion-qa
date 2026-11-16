@@ -413,7 +413,9 @@ link_types:
 # discovered by the sync.
 work_types:
   story:
-    jira_issue_type: Story
+    # Project-specific: this Spanish-localized instance names the type "Historia".
+    # The sync matches the name exactly, so the English default skipped every story.
+    jira_issue_type: Historia
     description: User story / feature work item
     sync: default
     coverable: true
@@ -969,6 +971,15 @@ work_types:
     # Doctrine: agentic-qa-core/references/artifact-lifecycle.md
     required_statuses:
       active: { description: Precondition in use (Create lands here; the only status) }
+
+  task:
+    # Project-specific: this Spanish-localized instance has a top-level "Tarea" type
+    # (e.g. TD-33), distinct from the subtask level below. `discovery` = synced only
+    # by an explicit `get <KEY>` / `jql`, never swept by a plain `pull`.
+    jira_issue_type: Tarea
+    description: Generic task work item (non-coverable), synced on demand only
+    sync: discovery
+    local_dir: tasks
 
   subtask:
     # `A | B | C` = ordered alternatives; the first one the project actually has
