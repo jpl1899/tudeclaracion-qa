@@ -13,17 +13,17 @@ project:
   webapp_domain: tudeclaracion-staging-pus8.onrender.com # Domain of the web application under test (e.g. myproject.com)
 
 backend:
-  backend_repo: null # TODO: Relative path to backend repository (e.g. ../my-backend)
-  backend_stack: null # TODO: Backend technology stack (e.g. Node.js + Express)
-  backend_entry: null # TODO: Backend source entry point (e.g. src/)
+  backend_repo: ../tudeclaracion # Same repo as the frontend: Next.js fullstack app
+  backend_stack: Next.js 15 Server Actions + Supabase (Postgres, Auth, Edge Functions)
+  backend_entry: src/ # Server actions in src/app/**/actions.ts and src/modules/; Supabase client in src/infrastructure/supabase/; migrations + edge functions in supabase/
 
 frontend:
-  frontend_repo: null # TODO: Relative path to frontend repository (e.g. ../my-frontend)
-  frontend_stack: null # TODO: Frontend technology stack (e.g. React + TypeScript)
-  frontend_entry: null # TODO: Frontend source entry point (e.g. src/)
+  frontend_repo: ../tudeclaracion # Same repo as the backend: Next.js fullstack app
+  frontend_stack: Next.js 15 (App Router) + React 19 + TypeScript + Tailwind
+  frontend_entry: src/app/ # App Router pages; feature modules in src/modules/, shared UI in src/components/
 
 database:
-  db_type: null # TODO: Database engine (e.g. PostgreSQL)
+  db_type: PostgreSQL (Supabase) # Schema migrations in ../tudeclaracion/supabase/migrations/
 
 issue_tracker:
   issue_tracker: null # TODO: Issue tracking tool (e.g. Jira)
