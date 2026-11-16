@@ -41,7 +41,7 @@ One aspect of the system under test: **its use, end to end**. Who the users are,
 
 ## Rules (judgment, dated)
 
-_(none yet: each rule carries `YYYY-MM-DD · rule · measured: how`)_
+- 2026-11-16 · Before asserting a downloaded PADI file's content, account for the fact that declaration files and statuses are recomputed on every view and that a plan or mapping edit changes them for periods already imported · measured: section `cross-feature-plan-edit-drift` of the e2e map, traced in code.
 
 ## Not here
 

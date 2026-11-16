@@ -40,7 +40,7 @@ One aspect of the system under test: **its data**. Which business entities exist
 
 ## Rules (judgment, dated)
 
-_(none yet: each rule carries `YYYY-MM-DD · rule · measured: how`)_
+- 2026-11-16 · Treat the map's schema as migration-derived: confirm a constraint, policy or enum value against the live DB (`[DB_TOOL]`) before relying on it · measured: map generated from the 27 files in `../tudeclaracion/supabase/migrations/` with no DB access.
 
 ## Not here
 

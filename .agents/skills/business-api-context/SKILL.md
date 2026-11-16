@@ -40,7 +40,7 @@ One aspect of the system under test: **its API as a business surface**. Which en
 
 ## Rules (judgment, dated)
 
-_(none yet: each rule carries `YYYY-MM-DD · rule · measured: how`)_
+- 2026-11-16 · A test of any browser-direct write (table UPDATE or RPC) calls Supabase with two accounts and asserts the second one is refused: no Next.js layer sits in front of those writes to assert against · measured: `rg "\.rpc\(|\.from\("` in `../tudeclaracion/src/` finds 5 RPC call sites and 19 files using `.from(`, with no server-side wrapper.
 
 ## Not here
 
